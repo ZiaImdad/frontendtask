@@ -1,0 +1,62 @@
+/* Slider2.css */
+
+.slider-container {
+    width: 100%;
+    height: auto; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    background: white;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  
+  .header-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+  }
+  
+  .header-container h3 {
+    margin: 0; /* Reset default margin */
+  }
+  
+  .show-more-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+  
+  .products-container {
+    width: 50%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Padding for internal spacing */
+    margin-top: 30px;
+  }
+  
+  .product {
+    text-align: left;
+    width: 150px;
+  }
+  
+  .product img {
+    height: 200px;
+    width: 100%;
+  }
+  
+  .product p {
+    margin-top: 5px;
+    color: black;
+  }
+  

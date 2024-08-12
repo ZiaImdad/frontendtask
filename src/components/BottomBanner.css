@@ -1,0 +1,59 @@
+.bottom-banner {
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-image: url('../assets/images/New-Collection--img.png');
+    width: 100%;
+    margin-top: 60px;
+    justify-content: right;
+  }
+  
+  .bottom-banner-content {
+    height: 150px;
+    width: 70%;
+    background: white;
+    border-top-left-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+  }
+  
+  .bottom-banner-text {
+    max-width: 60%;
+    text-align: left;
+    padding: 70px;
+    margin-top: 20px;
+  }
+  
+  .bottom-banner-text h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    color: #000;
+  }
+  
+  .bottom-banner-text p {
+    font-size: 16px;
+    margin: 0 0 20px 0;
+    color: #666;
+  }
+  
+  .bottom-shop-now-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
